@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{77C0A123-87F6-4430-BB29-DE7C52E90816}</ProjectGuid>
+    <ProjectGuid>{A39C9407-7593-47EB-A7A0-5257B3DF29A6}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Question1</RootNamespace>
-    <AssemblyName>Question1</AssemblyName>
+    <RootNamespace>Question7</RootNamespace>
+    <AssemblyName>Question7</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Circle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RandomNumbers.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
