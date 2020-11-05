@@ -36,16 +36,16 @@ namespace Question7
             sum = num1 + num2;
         }
 
-        public void IsEqual()
+        public bool IsEqual()
         {
             if(userInput == sum)
             {
-                Console.WriteLine("Well done correct answer.");
+                return true; 
             }
 
             else
             {
-                Console.WriteLine("Sorry wrong answer");
+                return false; 
             }
         }
 

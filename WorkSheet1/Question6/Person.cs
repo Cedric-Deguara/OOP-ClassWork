@@ -9,7 +9,7 @@ namespace Question6
 {
     class Person
     {
-        string ID;
+        string id;
         string name;
         int age;
         string locality;
@@ -19,7 +19,7 @@ namespace Question6
         {
             Console.WriteLine("What is the person's ID?");
             ID = Console.ReadLine();
-            String returnName = ID;
+            String returnName = id;
             return returnName; 
         }
         public string GetName()
